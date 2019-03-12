@@ -12,6 +12,9 @@
 		960CBE8E2237E69D00D6642C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960CBE8C2237E69D00D6642C /* Main.storyboard */; };
 		960CBE902237E6A000D6642C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960CBE8F2237E6A000D6642C /* Assets.xcassets */; };
 		960CBE932237E6A000D6642C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960CBE912237E6A000D6642C /* LaunchScreen.storyboard */; };
+		960CBE9B22380A4600D6642C /* elvis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 960CBE9A22380A4600D6642C /* elvis.mp3 */; };
+		960CBE9D22380DE400D6642C /* Composer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960CBE9C22380DE400D6642C /* Composer.swift */; };
+		960CBE9F22380F2700D6642C /* musette.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 960CBE9E22380F2700D6642C /* musette.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		960CBE8F2237E6A000D6642C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		960CBE922237E6A000D6642C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		960CBE942237E6A000D6642C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960CBE9A22380A4600D6642C /* elvis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elvis.mp3; sourceTree = "<group>"; };
+		960CBE9C22380DE400D6642C /* Composer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composer.swift; sourceTree = "<group>"; };
+		960CBE9E22380F2700D6642C /* musette.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musette.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				960CBE882237E69D00D6642C /* AppDelegate.swift */,
 				960CBE8A2237E69D00D6642C /* ViewController.swift */,
+				960CBE9C22380DE400D6642C /* Composer.swift */,
 				960CBE8C2237E69D00D6642C /* Main.storyboard */,
+				960CBE9A22380A4600D6642C /* elvis.mp3 */,
+				960CBE9E22380F2700D6642C /* musette.mp3 */,
 				960CBE8F2237E6A000D6642C /* Assets.xcassets */,
 				960CBE912237E6A000D6642C /* LaunchScreen.storyboard */,
 				960CBE942237E6A000D6642C /* Info.plist */,
@@ -122,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960CBE9F22380F2700D6642C /* musette.mp3 in Resources */,
 				960CBE932237E6A000D6642C /* LaunchScreen.storyboard in Resources */,
 				960CBE902237E6A000D6642C /* Assets.xcassets in Resources */,
+				960CBE9B22380A4600D6642C /* elvis.mp3 in Resources */,
 				960CBE8E2237E69D00D6642C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +148,7 @@
 			files = (
 				960CBE8B2237E69D00D6642C /* ViewController.swift in Sources */,
 				960CBE892237E69D00D6642C /* AppDelegate.swift in Sources */,
+				960CBE9D22380DE400D6642C /* Composer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
